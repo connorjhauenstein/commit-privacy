@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Privacy Policy — Commit</title>
+  <style>
+    :root {
+      --fg: #1a1a1a;
+      --muted: #666;
+      --bg: #fafafa;
+      --rule: #e5e5e5;
+      --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fg: #ececec;
+        --muted: #9a9a9a;
+        --bg: #161616;
+        --rule: #2a2a2a;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      color: var(--fg);
+      background: var(--bg);
+      padding: 48px 20px 96px;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0 0 8px;
+      letter-spacing: -0.01em;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 32px 0 8px;
+    }
+    p { margin: 8px 0; }
+    .effective {
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 13px;
+      margin: 0 0 32px;
+    }
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      text-decoration-color: var(--muted);
+    }
+    a:hover { text-decoration-color: var(--fg); }
+    code {
+      font-family: var(--mono);
+      font-size: 0.92em;
+      background: var(--rule);
+      padding: 1px 5px;
+      border-radius: 3px;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--rule);
+      margin: 40px 0;
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 16px;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy &mdash; Commit</h1>
+  <p class="effective">Effective: 2026-05-08</p>
+
+  <p>Commit is an iOS app for tracking weightlifting workouts. This policy describes the (very small) set of data the app handles. Plain English, no dark patterns.</p>
+
+  <h2>What stays on your device</h2>
+  <p>All workout data &mdash; your sets, reps, weights, routines, repos, custom exercises, settings &mdash; is stored locally on your iPhone in a SQLite database inside the app sandbox. <strong>None of it is transmitted off your device.</strong> If you delete the app, the data is gone.</p>
+  <p>The app generates an anonymous identifier on first launch to scope your local data. It is not linked to your identity, your Apple ID, your contacts, your name, or your email. It never leaves your device.</p>
+
+  <h2>What we collect off-device</h2>
+  <p><strong>Crash diagnostics (only if enabled in this build):</strong> When the app crashes, it sends a stack trace plus the app version, iOS version, and device model to <a href="https://sentry.io">Sentry.io</a>, our crash-reporting provider. We have personally-identifiable information explicitly disabled. Crash reports do not contain your workout data, your name, your email, or any identifier we could use to find you. They exist solely so we can fix bugs.</p>
+  <p>That's it. No analytics, no advertising SDKs, no third-party trackers, no marketing pixels.</p>
+
+  <h2>What we do not collect</h2>
+  <p>We do not collect, request, or receive: your name, email address, phone number, physical address, GPS or coarse location, photos, contacts, calendar, microphone, camera, Apple Health data, advertising identifier (IDFA), browsing history, or social-media accounts.</p>
+
+  <h2>Children's privacy</h2>
+  <p>Commit is not directed at children under 13 and we do not knowingly collect data from them.</p>
+
+  <h2>Account &amp; data deletion</h2>
+  <p>There are no accounts. To delete your data, delete the app. The "More" tab also includes a "Delete All Data" action that wipes the local database without uninstalling.</p>
+
+  <h2>Data retention</h2>
+  <p>Local data: kept until you delete it. Crash reports (if enabled): retained by Sentry per its standard retention policy (90 days for free-tier projects).</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If we change this policy in a way that affects what data is collected or how it is used, we will update the effective date above and notify you in-app on the next launch.</p>
+
+  <h2>Contact</h2>
+  <p>Questions, concerns, or data-deletion requests: <a href="mailto:connorjhauenstein@gmail.com">connorjhauenstein@gmail.com</a></p>
+
+  <footer>
+    Commit &middot; Built by <a href="https://github.com/connorjhauenstein">@connorjhauenstein</a>
+  </footer>
+</main>
+</body>
+</html>
