@@ -91,8 +91,8 @@
   <p>The app generates an anonymous identifier on first launch to scope your local data. It is not linked to your identity, your Apple ID, your contacts, your name, or your email. It never leaves your device.</p>
 
   <h2>What we collect off-device</h2>
-  <p><strong>Crash diagnostics (only if enabled in this build):</strong> When the app crashes, it sends a stack trace plus the app version, iOS version, and device model to <a href="https://sentry.io">Sentry.io</a>, our crash-reporting provider. We have personally-identifiable information explicitly disabled. Crash reports do not contain your workout data, your name, your email, or any identifier we could use to find you. They exist solely so we can fix bugs.</p>
-  <p>That's it. No analytics, no advertising SDKs, no third-party trackers, no marketing pixels.</p>
+  <p><strong>Nothing directly.</strong> The app does not include any third-party analytics, crash-reporting, advertising, or marketing SDKs.</p>
+  <p>If you choose to share diagnostics with developers in the <strong>TestFlight</strong> app (or in iOS <strong>Settings &rarr; Privacy &amp; Security &rarr; Analytics &amp; Improvements</strong> post-launch), Apple may share crash reports and basic usage information with us via App Store Connect. That data flow is between you and Apple &mdash; we are recipients, not collectors. Apple controls what is collected, redacts personal information, and lets you turn it off any time.</p>
 
   <h2>What we do not collect</h2>
   <p>We do not collect, request, or receive: your name, email address, phone number, physical address, GPS or coarse location, photos, contacts, calendar, microphone, camera, Apple Health data, advertising identifier (IDFA), browsing history, or social-media accounts.</p>
@@ -104,7 +104,7 @@
   <p>There are no accounts. To delete your data, delete the app. The "More" tab also includes a "Delete All Data" action that wipes the local database without uninstalling.</p>
 
   <h2>Data retention</h2>
-  <p>Local data: kept until you delete it. Crash reports (if enabled): retained by Sentry per its standard retention policy (90 days for free-tier projects).</p>
+  <p>Local data: kept until you delete it. Apple's TestFlight diagnostic reports (if you opted in): retained according to Apple's policies, which we do not control.</p>
 
   <h2>Changes to this policy</h2>
   <p>If we change this policy in a way that affects what data is collected or how it is used, we will update the effective date above and notify you in-app on the next launch.</p>
